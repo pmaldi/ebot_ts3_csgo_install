@@ -3,7 +3,7 @@ Installation script for EBOT, CS:GO and TS3 server on Ubuntu 16.04 LTS
 
 You need to run it with root:
 ```
-su -c "bash <(wget -qO- https://raw.githubusercontent.com/Flegma/ebot_ts3_csgo_install/master/install.sh)"
+su -c "bash <(wget -qO- https://raw.githubusercontent.com/pmaldi/ebot_ts3_csgo_install/master/install.sh)"
 ```
 
 If something fails, its probably due to openssl and libssl-dev packages being updated in the Ubuntu repository. As you can see in this line 
@@ -16,3 +16,5 @@ apt-cache policy openssl
 and change line 10 with respective values. 
 
 I will make this process automatic when i get more time. 
+
+Based on https://github.com/flegma/ebot_ts3_csgo_install
